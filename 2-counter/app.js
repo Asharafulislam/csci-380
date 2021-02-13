@@ -12,7 +12,7 @@ btns.forEach(function (btn) {
     } else if (styles.contains("increase")) {
       count++;
     } else {
-      count = 0;
+      count *= 2;
     }
 
     if (count > 0) {
