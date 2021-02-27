@@ -29,6 +29,7 @@ const titles = {
 
   router.get('/', (req, res, next) => {
     res.render('pages/index', {title: 'Home'});
+    
   });
   
   router.get('/:page?', (req, res, next) => {
